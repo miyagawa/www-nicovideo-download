@@ -158,7 +158,7 @@ I<eg/fetch-video.pl> how to make use of this method.
 
 Tatsuhiko Miyagawa E<lt>miyagawa@cpan.orgE<gt>
 
-Original downloader code for Plagger was written by woremacx.
+Original downloader code for Plagger was written by Yusuke Wada and the command line tool written by woremacx.
 
 =head1 LICENSE
 
