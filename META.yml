@@ -1,0 +1,25 @@
+---
+abstract: 'Download FLV/MP4/SWF files from nicovideo.jp'
+author:
+  - 'Tatsuhiko Miyagawa <miyagawa@cpan.org>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-NicoVideo-Download
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CGI::Simple: 0
+  LWP::UserAgent: 0
+  Moose: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
