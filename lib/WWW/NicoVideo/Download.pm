@@ -94,7 +94,7 @@ WWW::NicoVideo::Download - Download FLV/MP4/SWF files from nicovideo.jp
 
   my $client = WWW::NicoVideo::Download->new(
       email => 'your-email@example.com',
-      password => 'PASSSWORD',
+      password => 'PASSWORD',
   );
 
   $client->download("smNNNNNN", \&callback);
