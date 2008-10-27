@@ -82,7 +82,7 @@ __END__
 
 =encoding utf-8
 
-=for stopwords nicovideo Nico Douga
+=for stopwords nicovideo.jp Nico Douga API FLV Plagger UserAgent Wada Yusuke login woremacx
 
 =head1 NAME
 
@@ -141,7 +141,7 @@ here.
   $client->download($video_id, $file_path);
 
 Prepares the download by logging in and requesting the FLV API, and
-then download the video file. The 2nd parameter is passed to
+then download the video file. The second parameter is passed to
 LWP::UserAgent's request() method, so you can pass either local file
 path to be saved, or a callback function.
 
@@ -158,7 +158,7 @@ I<eg/fetch-video.pl> how to make use of this method.
 
 Tatsuhiko Miyagawa E<lt>miyagawa@cpan.orgE<gt>
 
-Original downloader code for Plagger was written by Yusuke Wada and the command line tool written by woremacx.
+Original download code for Plagger was written by Yusuke Wada and the command line tool written by woremacx.
 
 =head1 LICENSE
 
