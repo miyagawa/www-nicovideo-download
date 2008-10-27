@@ -1,4 +1,6 @@
 Changes
+eg/fetch-video.pl
+eg/nph-download-proxy.cgi
 inc/Module/Install.pm
 inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
