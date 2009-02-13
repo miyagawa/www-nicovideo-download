@@ -8,7 +8,7 @@ use Carp;
 use LWP::UserAgent;
 use CGI::Simple;
 
-use Moose;
+use Any::Moose;
 has 'email',      is => 'rw', isa => 'Str';
 has 'password',   is => 'rw', isa => 'Str';
 has 'user_agent', is => 'rw', isa => 'LWP::UserAgent', default => sub {

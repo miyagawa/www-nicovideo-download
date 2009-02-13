@@ -3,7 +3,7 @@ name 'WWW-NicoVideo-Download';
 all_from 'lib/WWW/NicoVideo/Download.pm';
 
 requires 'LWP::UserAgent';
-requires 'Moose';
+requires 'Any::Moose';
 requires 'CGI::Simple';
 
 build_requires 'Test::More';
