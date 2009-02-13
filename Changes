@@ -1,4 +1,7 @@
 Revision history for Perl extension WWW::NicoVideo::Download
 
+0.02  Fri Feb 13 14:55:15 PST 2009
+        - Use Any::Moose
+
 0.01  Sun Oct 26 14:14:56 2008
         - original version
