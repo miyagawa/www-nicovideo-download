@@ -1,5 +1,8 @@
 Revision history for Perl extension WWW::NicoVideo::Download
 
+0.03  Mon Oct  5 01:14:15 PDT 2009
+        - Fixed FLV URI and login regular expression (cho45)
+
 0.02  Fri Feb 13 14:55:15 PST 2009
         - Use Any::Moose
 
