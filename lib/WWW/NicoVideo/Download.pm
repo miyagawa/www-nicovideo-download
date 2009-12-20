@@ -41,7 +41,8 @@ sub prepare_download {
         $self->login($video_id);
     }
 
-    $res = $ua->get("http://www.nicovideo.jp/api/getflv/$video_id");
+    my $time = scalar time;
+    $res = $ua->get("http://flapi.nicovideo.jp/api/getflv?v=$video_id&ts=$time&as3=1");
     if ($res->is_error) {
         croak "getflv API error: ", $res->status_line;
     }
