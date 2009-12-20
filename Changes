@@ -1,5 +1,8 @@
 Revision history for Perl extension WWW::NicoVideo::Download
 
+0.05  Sun Dec 20 03:08:09 PST 2009
+        - Update FLV URL (cho45)
+
 0.04  Fri Oct 30 22:06:01 PDT 2009
         - Updated to deal with nicovideo.jp site update
 
