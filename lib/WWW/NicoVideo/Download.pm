@@ -41,6 +41,12 @@ sub prepare_download {
         $self->login($video_id);
     }
 
+    if ($video_id =~ m/so\d+/){
+	my $u = $res->request->uri->as_string;
+	$u =~ m|.+/([^?]+)|;
+	$video_id = $1;
+    }
+
     my $time = scalar time;
     $res = $ua->get("http://flapi.nicovideo.jp/api/getflv?v=$video_id&ts=$time&as3=1");
     if ($res->is_error) {
