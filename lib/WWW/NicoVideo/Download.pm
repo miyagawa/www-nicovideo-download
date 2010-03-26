@@ -2,7 +2,7 @@ package WWW::NicoVideo::Download;
 
 use strict;
 use 5.8.1;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use Carp;
 use LWP::UserAgent;
